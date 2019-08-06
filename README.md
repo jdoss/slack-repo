@@ -17,6 +17,7 @@ TL;DR: Having automatic Slack for Linux package updates and verifying the GPG si
 
 ```
 sudo dnf copr enable jdoss/slack-repo
+sudo dnf install slack-repo
 sudo dnf install slack
 ```
 
@@ -33,7 +34,7 @@ sudo dnf install slack
 
 MIT License
 
-Copyright (c) 2018 Joe Doss
+Copyright (c) 2019 Joe Doss
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
